@@ -37,7 +37,9 @@ class MouseHandler:
 
                 elif ycenter < y - 100:
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_VOR)
                     break
 
@@ -56,7 +58,9 @@ class MouseHandler:
 
                 elif self.ycenter < y - 100:
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_VOR)
                     break
 
@@ -74,7 +78,9 @@ class MouseHandler:
 
                 elif self.ycenter < y - 100:
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_LEFT)
+                    time.sleep(0.5)
                     remote_exec(ROOMBA_VOR)
                     break
 
